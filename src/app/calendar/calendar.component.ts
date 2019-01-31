@@ -1,5 +1,5 @@
 import {Component, OnInit} from '@angular/core';
-import * as jsPDF from 'jspdf'
+import * as jsPDF from 'jspdf';
 
 @Component({
   selector: 'app-calendar',
@@ -10,7 +10,7 @@ export class CalendarComponent implements OnInit {
   public today = new Date();
   public daysNum: any[] = [];
   public daystext = ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun'];
-  public show: boolean = false;
+  public show = false;
   public currentNum: number = null;
   public currentMonth = this.today.getMonth();
   public currentYear = this.today.getFullYear();

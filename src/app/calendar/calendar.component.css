@@ -3,7 +3,11 @@ body {
 }
 
 span {
-  margin-left: 30px;
+  margin-left: 20px;
+}
+
+.leftMarg{
+  margin-left: -30px;
 }
 
 #calendar {
@@ -126,35 +130,6 @@ caption {
   }
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* HeroesComponent's private CSS styles */
 .selected {
   background-color: #CFD8DC !important;
   color: white;
@@ -205,22 +180,6 @@ caption {
   border-radius: 4px 0 0 4px;
 }
 
-
-/*
-Copyright 2017-2018 Google Inc. All Rights Reserved.
-Use of this source code is governed by an MIT-style license that
-can be found in the LICENSE file at http://angular.io/license
-*/
-
-
-
-
-
-
-
-
-
-/* The Modal (background) */
 .modal {
   display: none; /* Hidden by default */
   position: fixed; /* Stay in place */
@@ -243,7 +202,6 @@ can be found in the LICENSE file at http://angular.io/license
   width: 80%; /* Could be more or less, depending on screen size */
 }
 
-/* The Close Button */
 .close {
   color: #aaa;
   float: right;

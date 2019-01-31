@@ -7,7 +7,6 @@ import {HeaderComponent} from './header/header.component';
 import {CalendarComponent} from './calendar/calendar.component';
 import {FormsModule} from '@angular/forms';
 import {MaxNumberPipe} from './max-number.pipe';
-import {DateDetailsComponent} from './date-details/date-details.component';
 import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
 
 @NgModule({
@@ -15,8 +14,7 @@ import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
     AppComponent,
     HeaderComponent,
     CalendarComponent,
-    MaxNumberPipe,
-    DateDetailsComponent
+    MaxNumberPipe
   ],
   imports: [
     BrowserModule,
